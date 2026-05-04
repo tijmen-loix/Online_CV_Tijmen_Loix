@@ -1,0 +1,59 @@
+@import url("https://use.typekit.net/gwg2ecu.css");
+
+:root {
+  --black: #0d0d0f;
+  --black-soft: rgba(255, 255, 255, 0.07);
+  --white: #ffffff;
+  --white-soft: rgba(255, 255, 255, 0.6);
+  --white-softer: rgba(255, 255, 255, 0.45);
+
+  --accent: #22c55e;
+  --accent-glow: rgba(34, 197, 94, 0.6);
+
+  --border-radius: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--white-soft);
+  background: var(--black);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family:
+    input-mono,
+    monospace,
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#projects,
+#opleidingen {
+  scroll-margin-top: 68px;
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "project": "Pokédex - Vue Edition",
+    "projectClass": "PXL - Web Advanced",
+    "description": "Deze Pokédex is een Vue 3 SPA die Pokémondata ophaalt via de PokéAPI en weergeeft in een klikbare lijst. Elke Pokémon toont een detailpagina. Routing verloopt via Vue Router met eager én lazy loading, en de data wordt centraal beheerd in een Pinia store.",
+    "skills": ["HTML/CSS", "JavaScript", "Vue"],
+    "github": "https://github.com/webpxl/pokedex-vue-edition-tijmen-loix",
+    "images": [
+      "/src/img/Pokedex1.png",
+      "/src/img/Pokedex2.png",
+      "/src/img/Pokedex3.png",
+      "/src/img/Pokedex4.png"
+    ]
+  },
+  {
+    "id": 2,
+    "project": "Musea Maaseik 4 Kids",
+    "projectClass": "Werkplekleren 2",
+    "description": "Een samenwerkingsproject met grafisch design en programmeren voor Musea Maaseik. Vue-frontend, C#-backend, met volledig accountbeheer inclusief wachtwoord reset.",
+    "skills": [
+      "HTML/CSS",
+      "JavaScript",
+      "Vue",
+      "SQL",
+      "C#",
+      "UI/UX",
+      "Figma",
+      "Adobe",
+      "Jira/Confluence"
+    ],
+    "github": "https://github.com/PXL-WPL2-2526/wpl2-dvo-frontend-team05",
+    "images": [
+      "/src/img/Musea1.png",
+      "/src/img/Musea2.png",
+      "/src/img/Musea3.png",
+      "/src/img/Musea4.png"
+    ]
+  },
+  {
+    "id": 3,
+    "project": "MyZutendalertje",
+    "projectClass": "Persoonlijk project",
+    "description": "Bedrijfsplanningsapp waarbij werkgevers maandelijkse roosters beheren per werknemer. Werknemers zien hun rooster live, stellen hun uurloon in en zien hun berekend maandloon. Data wordt opgeslagen in een databank.",
+    "skills": ["HTML/CSS", "JavaScript", "Vue", "SQL", "Express", "UI/UX"],
+    "images": ["/src/img/My1.png", "/src/img/My2.png", "/src/img/My3.png"],
+    "github": "https://github.com/tijmen-loix/MyZutendalertje"
+  },
+  {
+    "id": 4,
+    "project": "Takeaway Website",
+    "projectClass": "Web Essentials",
+    "description": "Takeaway website met gerecht van de dag, kortingen en favorieten. Maximaal 5 van hetzelfde gerecht, extra opties per gerecht, filteren op soort (bv. vegetarisch) en sorteren op prijs of naam. Data wordt bijgehouden via localStorage.",
+    "skills": ["HTML/CSS", "JavaScript"],
+    "images": [
+      "/src/img/Take1.png",
+      "/src/img/Take2.png",
+      "/src/img/Take3.png",
+      "/src/img/Take4.png"
+    ]
+  },
+  {
+    "id": 5,
+    "project": "DJ Tijmen",
+    "projectClass": "Persoonlijk project",
+    "description": "Persoonlijke website voor mijn DJ-activiteiten. Bezoekers kunnen mixtapes beluisteren via SoundCloud, een boeking aanvragen via een contactpagina en een overzicht bekijken van komende optredens. De site bevat ook een galerij en info over het aanbod.",
+    "skills": ["HTML/CSS", "JavaScript"],
+    "images": ["/src/img/Dj1.png", "/src/img/Dj2.png", "/src/img/Dj3.png", "/src/img/Dj4.png"],
+    "online": "https://djtijmen.be"
+  }
+]

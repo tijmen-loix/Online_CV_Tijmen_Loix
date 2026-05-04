@@ -1,0 +1,18 @@
+@import "./base.css";
+
+.btn {
+  background-color: var(--accent);
+  color: var(--white);
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: var(--border-radius);
+  font-weight: bold;
+  transition: 0.3s;
+  box-shadow: none;
+}
+
+.btn:hover {
+  box-shadow: 0 0 10px var(--accent-glow);
+  color: var(--white) !important;
+  transition: 0.3s;
+}
