@@ -221,5 +221,9 @@ button:hover {
   .right h2 {
     font-size: 1rem;
   }
+  .right-bottom p{
+    font-size: 0.8rem;
+    text-align: right;
+  }
 }
 </style>
