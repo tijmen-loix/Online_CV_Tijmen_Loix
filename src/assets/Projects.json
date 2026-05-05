@@ -7,10 +7,10 @@
     "skills": ["HTML/CSS", "JavaScript", "Vue"],
     "github": "https://github.com/webpxl/pokedex-vue-edition-tijmen-loix",
     "images": [
-      "/img/Pokedex1.png",
-      "/img/Pokedex2.png",
-      "/img/Pokedex3.png",
-      "/img/Pokedex4.png"
+      "/Pokedex1.png",
+      "/Pokedex2.png",
+      "/Pokedex3.png",
+      "/Pokedex4.png"
     ]
   },
   {
@@ -31,10 +31,10 @@
     ],
     "github": "https://github.com/PXL-WPL2-2526/wpl2-dvo-frontend-team05",
     "images": [
-      "/img/Musea1.png",
-      "/img/Musea2.png",
-      "/img/Musea3.png",
-      "/img/Musea4.png"
+      "/Musea1.png",
+      "/Musea2.png",
+      "/Musea3.png",
+      "/Musea4.png"
     ]
   },
   {
@@ -43,7 +43,7 @@
     "projectClass": "Persoonlijk project",
     "description": "Bedrijfsplanningsapp waarbij werkgevers maandelijkse roosters beheren per werknemer. Werknemers zien hun rooster live, stellen hun uurloon in en zien hun berekend maandloon. Data wordt opgeslagen in een databank.",
     "skills": ["HTML/CSS", "JavaScript", "Vue", "SQL", "Express", "UI/UX"],
-    "images": ["/img/My1.png", "/img/My2.png", "/img/My3.png"],
+    "images": ["/My1.png", "/My2.png", "/My3.png"],
     "github": "https://github.com/tijmen-loix/MyZutendalertje"
   },
   {
@@ -53,10 +53,10 @@
     "description": "Takeaway website met gerecht van de dag, kortingen en favorieten. Maximaal 5 van hetzelfde gerecht, extra opties per gerecht, filteren op soort (bv. vegetarisch) en sorteren op prijs of naam. Data wordt bijgehouden via localStorage.",
     "skills": ["HTML/CSS", "JavaScript"],
     "images": [
-      "/img/Take1.png",
-      "/img/Take2.png",
-      "/img/Take3.png",
-      "/img/Take4.png"
+      "/Take1.png",
+      "/Take2.png",
+      "/Take3.png",
+      "/Take4.png"
     ]
   },
   {
@@ -65,7 +65,7 @@
     "projectClass": "Persoonlijk project",
     "description": "Persoonlijke website voor mijn DJ-activiteiten. Bezoekers kunnen mixtapes beluisteren via SoundCloud, een boeking aanvragen via een contactpagina en een overzicht bekijken van komende optredens. De site bevat ook een galerij en info over het aanbod.",
     "skills": ["HTML/CSS", "JavaScript"],
-    "images": ["/img/Dj1.png", "/img/Dj2.png", "/img/Dj3.png", "/img/Dj4.png"],
+    "images": ["/Dj1.png", "/Dj2.png", "/Dj3.png", "/Dj4.png"],
     "online": "https://djtijmen.be"
   }
 ]
