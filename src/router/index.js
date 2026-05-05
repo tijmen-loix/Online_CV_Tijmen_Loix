@@ -12,13 +12,13 @@ const router = createRouter({
     {
       path: "/wpl",
       name: "wpl",
-      component: () => import('@/views/WerkplekLeren.vue')
+      component: () => import("@/views/WerkplekLeren.vue"),
     },
     {
       path: "/contact",
       name: "contact",
-      component: () => import('@/views/ContactView.vue')
-    }
+      component: () => import("@/views/ContactView.vue"),
+    },
   ],
   scrollBehavior(to, from, savedPosition) {
     const headerOffset = 80
@@ -30,13 +30,13 @@ const router = createRouter({
     if (to.hash) {
       return {
         el: to.hash,
-        behavior: 'smooth',
+        behavior: "smooth",
         top: headerOffset,
       }
     }
 
     return { top: 0 }
-  }
+  },
 })
 
 export default router

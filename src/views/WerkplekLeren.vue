@@ -1,11 +1,9 @@
 <script setup>
-import HeaderItem from '@/components/HeaderItem.vue'
-import FooterItem from '@/components/FooterItem.vue'
+import HeaderItem from "@/components/HeaderItem.vue"
+import FooterItem from "@/components/FooterItem.vue"
 </script>
 <template>
   <HeaderItem />
-  <FooterItem/>
+  <FooterItem />
 </template>
-<style scoped>
-
-</style>
+<style scoped></style>

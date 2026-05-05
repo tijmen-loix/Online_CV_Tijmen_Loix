@@ -137,51 +137,50 @@ import projects from "@/assets/Projects.json"
   margin: 36px 40px 0 0;
   text-align: left;
 }
-@media (max-width: 1200px){
-
-  .skillsLink{
+@media (max-width: 1200px) {
+  .skillsLink {
     margin-top: 10px;
   }
-  .images{
+  .images {
     width: 460px;
   }
-  .information > p{
-   width: 95%;
+  .information > p {
+    width: 95%;
   }
-  .skills p{
+  .skills p {
     padding: 0 12px;
   }
 }
-@media (max-width: 950px){
-  .top h1{
+@media (max-width: 950px) {
+  .top h1 {
     font-size: 1.4rem;
   }
   .top p {
     font-size: 0.8rem;
   }
-  .information h2{
+  .information h2 {
     font-size: 1.2rem;
   }
   .information h3 {
     font-size: 1rem;
   }
-  .images{
+  .images {
     width: 340px;
   }
   .images img {
     height: 240px;
   }
-  .information > p{
+  .information > p {
     width: 100%;
     margin-top: 10px;
   }
-  .skills p{
+  .skills p {
     font-size: 0.6rem;
   }
-  .information a{
+  .information a {
     font-size: 0.6rem !important;
   }
-  .project{
+  .project {
     height: 240px;
   }
   .information {
@@ -189,48 +188,48 @@ import projects from "@/assets/Projects.json"
   }
 }
 @media (max-width: 800px) {
-  .note{
+  .note {
     margin-left: 20px;
     font-size: 0.6rem !important;
   }
-  .images{
+  .images {
     width: 240px;
   }
   .images img {
     height: 200px;
   }
-  .project{
+  .project {
     height: 200px;
   }
-  .information > p{
-   line-height: 1.2;
+  .information > p {
+    line-height: 1.2;
     margin-top: 2px;
   }
 }
-@media (max-width: 730px){
-  .note{
+@media (max-width: 730px) {
+  .note {
     display: none;
   }
-  .images{
+  .images {
     display: none;
   }
-  .information{
+  .information {
     width: 100%;
     margin: 0 0 20px 0 !important;
   }
-  .project{
+  .project {
     height: fit-content;
   }
-  .information h2{
+  .information h2 {
     font-size: 1rem;
   }
   .information h3 {
     font-size: 0.8rem;
   }
-  .skills{
+  .skills {
     line-height: 0.8;
   }
-  .skills p{
+  .skills p {
     padding: 4px 10px;
   }
   .content {

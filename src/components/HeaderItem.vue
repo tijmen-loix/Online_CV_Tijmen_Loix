@@ -1,10 +1,7 @@
 <script setup>
-
-import {ref} from 'vue';
+import { ref } from "vue"
 
 const hamburger = ref(false)
-
-
 </script>
 <template>
   <header>
@@ -22,14 +19,14 @@ const hamburger = ref(false)
       <RouterLink to="/contact" class="btn">Contact</RouterLink>
     </section>
     <section class="hamburger">
-      <img @click="hamburger=true" src="@/img/hamburger.svg" alt="Hamburger" />
+      <img @click="hamburger = true" src="@/img/hamburger.svg" alt="Hamburger" />
       <section class="hamburger-inner" v-if="hamburger">
-        <img class="cross" src="@/img/cross.svg" alt="cross" @click="hamburger=false"/>
-        <RouterLink @click="hamburger=false" to="/">Home</RouterLink>
-        <RouterLink @click="hamburger=false" to="/#projects">Projecten</RouterLink>
-        <RouterLink @click="hamburger=false" to="/#opleidingen">Opleidingen</RouterLink>
-        <RouterLink @click="hamburger=false" to="/#overMij">Over mij</RouterLink>
-        <RouterLink @click="hamburger=false" to="/contact" class="btn">Contact</RouterLink>
+        <img class="cross" src="@/img/cross.svg" alt="cross" @click="hamburger = false" />
+        <RouterLink @click="hamburger = false" to="/">Home</RouterLink>
+        <RouterLink @click="hamburger = false" to="/#projects">Projecten</RouterLink>
+        <RouterLink @click="hamburger = false" to="/#opleidingen">Opleidingen</RouterLink>
+        <RouterLink @click="hamburger = false" to="/#overMij">Over mij</RouterLink>
+        <RouterLink @click="hamburger = false" to="/contact" class="btn">Contact</RouterLink>
       </section>
     </section>
   </header>
@@ -55,7 +52,7 @@ header {
   font-weight: bold;
   font-size: 1.2rem;
 }
-.header-left a:nth-child(1):hover{
+.header-left a:nth-child(1):hover {
   cursor: pointer;
 }
 
@@ -89,7 +86,7 @@ a:hover {
   .header-left {
     gap: 20px;
   }
-  .header-left a{
+  .header-left a {
     font-size: 0.6rem;
   }
   .nav a {
@@ -98,7 +95,7 @@ a:hover {
   }
 }
 @media (max-width: 650px) {
-  .nav{
+  .nav {
     display: none;
   }
   .hamburger {
@@ -118,19 +115,20 @@ a:hover {
     width: 100vw;
     display: flex;
     flex-direction: column;
-    padding: 100px 80px;
+    padding: 100px 40px;
     gap: 10px;
   }
-  .hamburger-inner a{
+  .hamburger-inner a {
     color: var(--white);
     text-decoration: none;
     font-size: 1.4rem;
   }
-  .hamburger-inner .btn{
-   width: fit-content;
+  .hamburger-inner .btn {
+    width: fit-content;
     margin-top: 20px;
+    padding: 2px 10px;
   }
-  .cross{
+  .cross {
     position: absolute;
     width: 35px !important;
     right: 40px;

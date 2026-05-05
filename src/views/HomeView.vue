@@ -7,7 +7,7 @@ import FooterItem from "@/components/FooterItem.vue"
 </script>
 <template>
   <main>
-    <IntroductionItem/>
+    <IntroductionItem />
     <ProjectItem id="projects" />
     <OpleidingenItem id="opleidingen" />
     <OverMij id="overMij" />

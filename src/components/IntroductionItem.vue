@@ -1,5 +1,4 @@
-<script setup>
-</script>
+<script setup></script>
 <template>
   <section class="content">
     <section class="content-left">
@@ -132,46 +131,46 @@ hr {
 }
 
 @media (max-width: 1200px) {
-  .content{
+  .content {
     margin-top: -20px;
   }
-  .content-right{
+  .content-right {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
     width: 60%;
   }
-.imgTijmen{
-  width: 100%;
-  height: auto;
-  margin-top: -20px;
-  margin-bottom: 10px;
-}
-.skills p{
-  font-size: 0.8rem;
-}
-.description{
-  font-size: 0.8rem;
-  margin-top: 10px;
-}
+  .imgTijmen {
+    width: 100%;
+    height: auto;
+    margin-top: -20px;
+    margin-bottom: 10px;
+  }
+  .skills p {
+    font-size: 0.8rem;
+  }
+  .description {
+    font-size: 0.8rem;
+    margin-top: 10px;
+  }
 
-.contact a{
-  font-size: 0.8rem;
-}
-.contact {
-  margin-top: 18px;
-}
-hr{
-  margin-top: -10px;
-}
+  .contact a {
+    font-size: 0.8rem;
+  }
+  .contact {
+    margin-top: 18px;
+  }
+  hr {
+    margin-top: -10px;
+  }
 }
 
 @media (max-width: 950px) {
-  .content{
+  .content {
     margin-top: -60px;
   }
-  .naam{
+  .naam {
     font-size: 2.4rem;
   }
   .function {
@@ -181,7 +180,7 @@ hr{
     font-size: 0.8rem;
     line-height: 1.2;
   }
-  .skills p{
+  .skills p {
     font-size: 0.6rem;
     margin-top: 12px;
   }
@@ -197,29 +196,29 @@ hr{
   }
 }
 @media (max-width: 650px) {
-  .content-right{
+  .content-right {
     display: none;
   }
-  .imgTijmen{
+  .imgTijmen {
     display: none;
   }
-  .content-left{
+  .content-left {
     width: 100%;
   }
-  .description{
+  .description {
     width: 100%;
   }
   .content-left {
     margin-left: 30px;
     margin-right: 30px;
   }
-  .contact{
+  .contact {
     margin-top: 32px;
   }
-  hr{
+  hr {
     margin-top: 0;
   }
-  .skills{
+  .skills {
     margin-top: 16px;
   }
 }

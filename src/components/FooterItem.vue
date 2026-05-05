@@ -1,6 +1,4 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
   <section class="content">
@@ -20,8 +18,8 @@
   margin-top: 40px;
   font-size: 14px;
 }
-@media (max-width: 650px){
-  .content{
+@media (max-width: 650px) {
+  .content {
     font-size: 0.6rem;
   }
 }

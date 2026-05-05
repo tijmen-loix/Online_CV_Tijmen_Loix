@@ -97,7 +97,7 @@
 .middle {
   display: flex;
   justify-content: space-between;
-  gap:20px;
+  gap: 20px;
   margin-top: 20px;
 }
 .middle-right {
@@ -170,53 +170,51 @@
   box-shadow: 0 0 10px var(--accent-glow);
 }
 
-
 @media (max-width: 1200px) {
-
   .card-bottom2,
-  .card-bottom{
+  .card-bottom {
     margin: 10px 20px 20px 40px;
   }
-  .middle-left{
+  .middle-left {
     width: 40%;
   }
-  .bottom{
+  .bottom {
     width: 60%;
   }
 }
 @media (max-width: 1050px) {
-  .middle{
+  .middle {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-  .middle-left{
+  .middle-left {
     width: 100%;
   }
-  .bottom{
+  .bottom {
     width: 100%;
   }
-  .top h1{
+  .top h1 {
     font-size: 1.4rem;
   }
-  .links{
+  .links {
     margin-top: 20px;
   }
 }
 @media (max-width: 660px) {
   .card-bottom2,
-  .card-bottom{
+  .card-bottom {
     margin: 10px 10px 20px 10px;
     font-size: 0.8rem;
   }
-  .bottom p{
+  .bottom p {
     font-size: 0.8rem;
   }
 
-  .links a{
+  .links a {
     font-size: 0.8rem;
   }
-  .bottom p{
+  .bottom p {
     font-size: 0.6rem;
   }
   .content {
@@ -224,25 +222,23 @@
   }
 }
 @media (max-width: 480px) {
-
-  .links a{
+  .links a {
     font-size: 0.6rem;
   }
   .right p {
     padding: 4px 20px 4px -10px;
   }
-
 }
 @media (max-width: 410px) {
-  .left p:nth-child(3){
+  .left p:nth-child(3) {
     padding: 12px 14px;
   }
 }
 @media (max-width: 320px) {
-  .left p:nth-child(3){
+  .left p:nth-child(3) {
     padding: 19px 14px;
   }
-  .left p:nth-child(5){
+  .left p:nth-child(5) {
     padding: 12px 14px;
   }
 }
