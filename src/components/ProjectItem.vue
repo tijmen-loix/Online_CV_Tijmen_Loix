@@ -137,4 +137,104 @@ import projects from "@/assets/Projects.json"
   margin: 36px 40px 0 0;
   text-align: left;
 }
+@media (max-width: 1200px){
+
+  .skillsLink{
+    margin-top: 10px;
+  }
+  .images{
+    width: 460px;
+  }
+  .information > p{
+   width: 95%;
+  }
+  .skills p{
+    padding: 0 12px;
+  }
+}
+@media (max-width: 950px){
+  .top h1{
+    font-size: 1.4rem;
+  }
+  .top p {
+    font-size: 0.8rem;
+  }
+  .information h2{
+    font-size: 1.2rem;
+  }
+  .information h3 {
+    font-size: 1rem;
+  }
+  .images{
+    width: 340px;
+  }
+  .images img {
+    height: 240px;
+  }
+  .information > p{
+    width: 100%;
+    margin-top: 10px;
+  }
+  .skills p{
+    font-size: 0.6rem;
+  }
+  .information a{
+    font-size: 0.6rem !important;
+  }
+  .project{
+    height: 240px;
+  }
+  .information {
+    margin-top: 2px !important;
+  }
+}
+@media (max-width: 800px) {
+  .note{
+    margin-left: 20px;
+    font-size: 0.6rem !important;
+  }
+  .images{
+    width: 240px;
+  }
+  .images img {
+    height: 200px;
+  }
+  .project{
+    height: 200px;
+  }
+  .information > p{
+   line-height: 1.2;
+    margin-top: 2px;
+  }
+}
+@media (max-width: 730px){
+  .note{
+    display: none;
+  }
+  .images{
+    display: none;
+  }
+  .information{
+    width: 100%;
+    margin: 0 0 20px 0 !important;
+  }
+  .project{
+    height: fit-content;
+  }
+  .information h2{
+    font-size: 1rem;
+  }
+  .information h3 {
+    font-size: 0.8rem;
+  }
+  .skills{
+    line-height: 0.8;
+  }
+  .skills p{
+    padding: 4px 10px;
+  }
+  .content {
+    margin: 30px 30px;
+  }
+}
 </style>

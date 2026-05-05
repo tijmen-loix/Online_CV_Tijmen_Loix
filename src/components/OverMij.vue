@@ -9,25 +9,35 @@
         <section class="card">
           <p>Talenkennis</p>
           <section class="card-bottom">
-            <p> <span style="color:var(--white)">Nederlands</span> ---- Moedertaal</p>
-            <div style="background: var(--black-soft); border-radius: 2px; height: 3px;">
-              <div style="background: var(--accent); width: 100%; height: 3px; border-radius: 2px;"></div>
+            <p><span style="color: var(--white)">Nederlands</span> ---- Moedertaal</p>
+            <div style="background: var(--black-soft); border-radius: 2px; height: 3px">
+              <div
+                style="background: var(--accent); width: 100%; height: 3px; border-radius: 2px"
+              ></div>
             </div>
-            <p><span style="color:var(--white)">Engels</span> ---- Heel goed</p>
-            <div style="background: var(--black-soft); border-radius: 2px; height: 3px;">
-              <div style="background: var(--accent); width: 90%; height: 3px; border-radius: 2px;"></div>
+            <p><span style="color: var(--white)">Engels</span> ---- Heel goed</p>
+            <div style="background: var(--black-soft); border-radius: 2px; height: 3px">
+              <div
+                style="background: var(--accent); width: 90%; height: 3px; border-radius: 2px"
+              ></div>
             </div>
-            <p><span style="color:var(--white)">Frans</span> ---- basis</p>
-            <div style="background: var(--black-soft); border-radius: 2px; height: 3px;">
-              <div style="background: var(--accent); width: 25%; height: 3px; border-radius: 2px;"></div>
+            <p><span style="color: var(--white)">Frans</span> ---- basis</p>
+            <div style="background: var(--black-soft); border-radius: 2px; height: 3px">
+              <div
+                style="background: var(--accent); width: 25%; height: 3px; border-radius: 2px"
+              ></div>
             </div>
-            <p><span style="color:var(--white)">Duits</span> ---- basis</p>
-            <div style="background: var(--black-soft); border-radius: 2px; height: 3px;">
-              <div style="background: var(--accent); width: 15%; height: 3px; border-radius: 2px;"></div>
+            <p><span style="color: var(--white)">Duits</span> ---- basis</p>
+            <div style="background: var(--black-soft); border-radius: 2px; height: 3px">
+              <div
+                style="background: var(--accent); width: 15%; height: 3px; border-radius: 2px"
+              ></div>
             </div>
-            <p><span style="color:var(--white)">Chinees</span> ---- NULL</p>
-            <div style="background: var(--black-soft); border-radius: 2px; height: 3px;">
-              <div style="background: var(--accent); width: 0; height: 3px; border-radius: 2px;"></div>
+            <p><span style="color: var(--white)">Chinees</span> ---- NULL</p>
+            <div style="background: var(--black-soft); border-radius: 2px; height: 3px">
+              <div
+                style="background: var(--accent); width: 0; height: 3px; border-radius: 2px"
+              ></div>
             </div>
           </section>
         </section>
@@ -66,7 +76,7 @@
             <p>tijmenloix@icloud.com</p>
             <p>+32 468 48 55 95</p>
           </section>
-      </section>
+        </section>
         <section class="links">
           <a href="https://instagram.com/tijmenloix" target="_blank">Instagram</a>
           <a href="https://www.facebook.com/tijmen.loix" target="_blank">Facebook</a>
@@ -87,35 +97,41 @@
 .middle {
   display: flex;
   justify-content: space-between;
+  gap:20px;
   margin-top: 20px;
 }
 .middle-right {
   display: flex;
+  width: 100%;
 }
 
 .middle-right p {
-  padding: 4px 60px 4px 14px;
+  padding: 4px 10px 4px 14px;
   margin: 0 0 10px 0;
   background-color: var(--black-soft);
 }
 .right {
   color: var(--white);
   text-align: right;
+  width: 100%;
 }
-.right p{
-  padding: 4px 20px 4px 14px;
+.right p {
+  padding: 4px 20px 4px 0;
 }
-.card{
+.card {
   background-color: var(--black-soft);
   padding: 12px 20px 4px 18px;
   margin: 0 0 20px 0;
-  width: 600px;
+  width: 100%;
 }
-.card-bottom{
-  margin: 10px 5px 20px 80px ;
+.middle-left {
+  width: 46%;
+}
+.card-bottom {
+  margin: 10px 5px 20px 80px;
   text-align: left;
 }
-.card-bottom p{
+.card-bottom p {
   margin: 16px 0 8px 0;
 }
 .card-bottom2 {
@@ -125,19 +141,20 @@
   gap: 2px 28px;
   margin: 10px 20px 20px 80px;
 }
-.card-bottom2 p{
+.card-bottom2 p {
   color: var(--accent);
 }
-.bottom{
+.bottom {
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 
-.links{
+.links {
   margin-top: 94px;
   text-align: right;
 }
-.links a{
+.links a {
   color: var(--white);
   margin-right: 16px;
   transition: 0.3s;
@@ -146,10 +163,87 @@
   padding: 2px 10px;
   border-radius: var(--border-radius);
 }
-.links a:hover{
+.links a:hover {
   color: var(--accent);
   transition: 0.3s;
   border: 1px solid var(--accent);
   box-shadow: 0 0 10px var(--accent-glow);
+}
+
+
+@media (max-width: 1200px) {
+
+  .card-bottom2,
+  .card-bottom{
+    margin: 10px 20px 20px 40px;
+  }
+  .middle-left{
+    width: 40%;
+  }
+  .bottom{
+    width: 60%;
+  }
+}
+@media (max-width: 1050px) {
+  .middle{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .middle-left{
+    width: 100%;
+  }
+  .bottom{
+    width: 100%;
+  }
+  .top h1{
+    font-size: 1.4rem;
+  }
+  .links{
+    margin-top: 20px;
+  }
+}
+@media (max-width: 660px) {
+  .card-bottom2,
+  .card-bottom{
+    margin: 10px 10px 20px 10px;
+    font-size: 0.8rem;
+  }
+  .bottom p{
+    font-size: 0.8rem;
+  }
+
+  .links a{
+    font-size: 0.8rem;
+  }
+  .bottom p{
+    font-size: 0.6rem;
+  }
+  .content {
+    margin: 30px 30px;
+  }
+}
+@media (max-width: 480px) {
+
+  .links a{
+    font-size: 0.6rem;
+  }
+  .right p {
+    padding: 4px 20px 4px -10px;
+  }
+
+}
+@media (max-width: 410px) {
+  .left p:nth-child(3){
+    padding: 12px 14px;
+  }
+}
+@media (max-width: 320px) {
+  .left p:nth-child(3){
+    padding: 19px 14px;
+  }
+  .left p:nth-child(5){
+    padding: 12px 14px;
+  }
 }
 </style>

@@ -7,7 +7,7 @@ import FooterItem from "@/components/FooterItem.vue"
 </script>
 <template>
   <main>
-    <IntroductionItem />
+    <IntroductionItem/>
     <ProjectItem id="projects" />
     <OpleidingenItem id="opleidingen" />
     <OverMij id="overMij" />
@@ -18,6 +18,6 @@ import FooterItem from "@/components/FooterItem.vue"
 </template>
 <style scoped>
 main {
-  margin-top: 50px;
+  margin-top: 46px;
 }
 </style>

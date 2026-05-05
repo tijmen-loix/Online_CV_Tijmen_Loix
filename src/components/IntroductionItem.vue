@@ -1,4 +1,5 @@
-<script setup></script>
+<script setup>
+</script>
 <template>
   <section class="content">
     <section class="content-left">
@@ -22,13 +23,13 @@
         <p>Microsoft Office</p>
       </section>
       <section class="contact">
-        <a href="#"
+        <RouterLink to="/contact"
           >Neem contact op <img class="arrow" src="@/img/arrow-right.svg" alt="Arrow"
-        /></a>
-        <a href="#projects">Bekijk projecten</a>
+        /></RouterLink>
+        <RouterLink to="/#projects">Bekijk projecten</RouterLink>
       </section>
     </section>
-    <section>
+    <section class="content-right">
       <img class="imgTijmen" src="@/img/TijmenGlow.png" alt="Tijmen" />
     </section>
   </section>
@@ -38,11 +39,13 @@
 .content {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 .content-left {
   display: flex;
   flex-direction: column;
   margin: 106px -10px 20px 60px;
+  width: 60%;
 }
 .naam {
   color: var(--white);
@@ -61,7 +64,7 @@
 .skills {
   display: flex;
   flex-wrap: wrap;
-  width: 800px;
+  width: 100%;
 }
 .skills p {
   padding: 2px 12px;
@@ -126,5 +129,98 @@ hr {
   z-index: 1;
   border: none;
   outline: none;
+}
+
+@media (max-width: 1200px) {
+  .content{
+    margin-top: -20px;
+  }
+  .content-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 60%;
+  }
+.imgTijmen{
+  width: 100%;
+  height: auto;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+.skills p{
+  font-size: 0.8rem;
+}
+.description{
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+.contact a{
+  font-size: 0.8rem;
+}
+.contact {
+  margin-top: 18px;
+}
+hr{
+  margin-top: -10px;
+}
+}
+
+@media (max-width: 950px) {
+  .content{
+    margin-top: -60px;
+  }
+  .naam{
+    font-size: 2.4rem;
+  }
+  .function {
+    font-size: 1.4rem;
+  }
+  .description {
+    font-size: 0.8rem;
+    line-height: 1.2;
+  }
+  .skills p{
+    font-size: 0.6rem;
+    margin-top: 12px;
+  }
+  .contact a:nth-child(1) {
+    padding: 2px 8px;
+    font-size: 0.6rem;
+  }
+  .contact a:nth-child(2) {
+    font-size: 0.8rem;
+  }
+  .imgTijmen {
+    width: 90%;
+  }
+}
+@media (max-width: 650px) {
+  .content-right{
+    display: none;
+  }
+  .imgTijmen{
+    display: none;
+  }
+  .content-left{
+    width: 100%;
+  }
+  .description{
+    width: 100%;
+  }
+  .content-left {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .contact{
+    margin-top: 32px;
+  }
+  hr{
+    margin-top: 0;
+  }
+  .skills{
+    margin-top: 16px;
+  }
 }
 </style>

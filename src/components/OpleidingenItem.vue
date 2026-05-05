@@ -83,4 +83,50 @@
   background-color: var(--black-soft);
   margin: 12px 0 18px 12px;
 }
+@media (max-width: 850px){
+  .top h1{
+    font-size: 1.4rem;
+  }
+  .card h3{
+    font-size: 1rem;
+  }
+  .card h4{
+    font-size: 0.8rem;
+  }
+  .card p{
+    font-size: 0.8rem;
+  }
+  .bottom h2{
+    font-size: 1rem;
+  }
+}
+@media (max-width: 700px){
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .left{
+    width: 100%;
+  }
+  .right{
+    width: 100%;
+  }
+  .card{
+    padding: 10px 20px;
+    margin: 12px 0 18px 0;
+  }
+  .card h3{
+    font-size: 0.8rem;
+  }
+  .content{
+    margin: 30px;
+  }
+}
+@media (max-width: 450px){
+  .card h4{
+    line-height: 1;
+    margin: 6px 0
+  }
+}
 </style>
