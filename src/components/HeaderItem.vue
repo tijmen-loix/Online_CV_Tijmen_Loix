@@ -9,7 +9,7 @@ const hamburger = ref(false)
 <template>
   <header>
     <section class="header-left">
-      <h2>TL</h2>
+      <RouterLink to="/">TL</RouterLink>
       <a href="/src/assets/Loix_Tijmen_cv.pdf" download="Loix_Tijmen_cv.pdf" target="_blank">
         Download hier mijn cv als PDF
       </a>
@@ -50,10 +50,13 @@ header {
   z-index: 2;
 }
 
-h2 {
+.header-left a:nth-child(1) {
   color: var(--accent);
   font-weight: bold;
   font-size: 1.2rem;
+}
+.header-left a:nth-child(1):hover{
+  cursor: pointer;
 }
 
 .header-left {
@@ -71,7 +74,7 @@ a {
   margin: 0 20px;
   color: var(--white);
 }
-.header-left a {
+.header-left a:nth-child(2) {
   color: var(--white-soft);
 }
 a:hover {
