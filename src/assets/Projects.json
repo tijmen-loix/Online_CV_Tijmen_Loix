@@ -5,7 +5,6 @@
     "projectClass": "PXL - Web Advanced",
     "description": "Deze Pokédex is een Vue 3 SPA die Pokémondata ophaalt via de PokéAPI en weergeeft in een klikbare lijst. Elke Pokémon toont een detailpagina. Routing verloopt via Vue Router met eager én lazy loading, en de data wordt centraal beheerd in een Pinia store.",
     "skills": ["HTML/CSS", "JavaScript", "Vue"],
-    "github": "https://github.com/webpxl/pokedex-vue-edition-tijmen-loix",
     "images": [
       "/Pokedex1.png",
       "/Pokedex2.png",
@@ -29,7 +28,6 @@
       "Adobe",
       "Jira/Confluence"
     ],
-    "github": "https://github.com/PXL-WPL2-2526/wpl2-dvo-frontend-team05",
     "images": [
       "/Musea1.png",
       "/Musea2.png",
