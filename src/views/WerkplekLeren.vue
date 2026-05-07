@@ -24,7 +24,7 @@
         <p>Het eindresultaat is een functionele kinderwebsite met een volledig werkend accountbeheersysteem, een doordacht visueel concept en een campagne die Musea Maaseik kan inzetten om een jonger publiek aan te trekken. Ik ben trots op wat ons team heeft bereikt en de manier waarop we de verschillende disciplines succesvol hebben samengebracht. Ieder van ons heeft nieuwe kennis opgedaan, nieuwe soft & hard skills ontwikkeld en vooral sociaal veel sterker geworden.</p>
       </section>
       <section class="bottom">
-        <h2>Foto's & Video's</h2>
+        <h2></h2>
 
       </section>
     </section>
