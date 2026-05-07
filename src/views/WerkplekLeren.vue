@@ -25,7 +25,6 @@
       </section>
       <section class="bottom">
         <h2></h2>
-
       </section>
     </section>
   </main>
