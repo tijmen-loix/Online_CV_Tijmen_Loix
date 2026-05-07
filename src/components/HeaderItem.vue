@@ -7,7 +7,7 @@ const hamburger = ref(false)
   <header>
     <section class="header-left">
       <RouterLink to="/">TL</RouterLink>
-      <a href="/src/assets/Loix_Tijmen_cv.pdf" download="Loix_Tijmen_cv.pdf" target="_blank">
+      <a href="/Loix_Tijmen_cv.pdf" download="Loix_Tijmen_cv.pdf" target="_blank">
         Download hier mijn cv als PDF
       </a>
     </section>
@@ -16,6 +16,7 @@ const hamburger = ref(false)
       <RouterLink to="/#projects">Projecten</RouterLink>
       <RouterLink to="/#opleidingen">Opleidingen</RouterLink>
       <RouterLink to="/#overMij">Over mij</RouterLink>
+      <RouterLink to="/wpl">Werkplekleren</RouterLink>
       <RouterLink to="/contact" class="btn">Contact</RouterLink>
     </section>
     <section class="hamburger">
@@ -26,6 +27,7 @@ const hamburger = ref(false)
         <RouterLink @click="hamburger = false" to="/#projects">Projecten</RouterLink>
         <RouterLink @click="hamburger = false" to="/#opleidingen">Opleidingen</RouterLink>
         <RouterLink @click="hamburger = false" to="/#overMij">Over mij</RouterLink>
+        <RouterLink @click="hamburger = false" to="/wpl">Werkplekleren</RouterLink>
         <RouterLink @click="hamburger = false" to="/contact" class="btn">Contact</RouterLink>
       </section>
     </section>
@@ -82,7 +84,20 @@ a:hover {
   display: none;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1120px){
+  .header-left {
+    gap: 30px;
+  }
+  .header-left a {
+    font-size: 0.8rem;
+  }
+  .nav a {
+    margin: 0 10px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 970px) {
   .header-left {
     gap: 20px;
   }
@@ -94,7 +109,7 @@ a:hover {
     font-size: 0.6rem;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 770px) {
   .nav {
     display: none;
   }
