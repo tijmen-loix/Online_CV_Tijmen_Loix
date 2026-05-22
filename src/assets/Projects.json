@@ -5,12 +5,7 @@
     "projectClass": "PXL - Web Advanced",
     "description": "Deze Pokédex is een Vue 3 SPA die Pokémondata ophaalt via de PokéAPI en weergeeft in een klikbare lijst. Elke Pokémon toont een detailpagina. Routing verloopt via Vue Router met eager én lazy loading, en de data wordt centraal beheerd in een Pinia store.",
     "skills": ["HTML/CSS", "JavaScript", "Vue"],
-    "images": [
-      "/Pokedex1.webp",
-      "/Pokedex2.webp",
-      "/Pokedex3.webp",
-      "/Pokedex4.webp"
-    ]
+    "images": ["/Pokedex1.webp", "/Pokedex2.webp", "/Pokedex3.webp", "/Pokedex4.webp"]
   },
   {
     "id": 2,
@@ -28,12 +23,7 @@
       "Adobe",
       "Jira/Confluence"
     ],
-    "images": [
-      "/Musea1.webp",
-      "/Musea2.webp",
-      "/Musea3.webp",
-      "/Musea4.webp"
-    ]
+    "images": ["/Musea1.webp", "/Musea2.webp", "/Musea3.webp", "/Musea4.webp"]
   },
   {
     "id": 3,
@@ -50,12 +40,7 @@
     "projectClass": "Web Essentials",
     "description": "Takeaway website met gerecht van de dag, kortingen en favorieten. Maximaal 5 van hetzelfde gerecht, extra opties per gerecht, filteren op soort (bv. vegetarisch) en sorteren op prijs of naam. Data wordt bijgehouden via localStorage.",
     "skills": ["HTML/CSS", "JavaScript"],
-    "images": [
-      "/Take1.webp",
-      "/Take2.webp",
-      "/Take3.webp",
-      "/Take4.webp"
-    ]
+    "images": ["/Take1.webp", "/Take2.webp", "/Take3.webp", "/Take4.webp"]
   },
   {
     "id": 5,

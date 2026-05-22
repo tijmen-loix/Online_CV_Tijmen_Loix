@@ -84,7 +84,7 @@ a:hover {
   display: none;
 }
 
-@media (max-width: 1120px){
+@media (max-width: 1120px) {
   .header-left {
     gap: 30px;
   }
