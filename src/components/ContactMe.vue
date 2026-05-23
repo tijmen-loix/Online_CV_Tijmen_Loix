@@ -46,6 +46,7 @@ const handleSubmit = async (e) => {
           <a href="https://instagram.com/tijmenloix" target="_blank">Instagram</a>
           <a href="https://www.facebook.com/tijmen.loix" target="_blank">Facebook</a>
           <a href="https://www.linkedin.com/in/tijmen-loix-5a03593ab/" target="_blank">LinkedIn</a>
+          <a href="https://github.com/tijmen-loix" target="_blank">Github</a>
         </section>
       </section>
     </section>
@@ -112,6 +113,8 @@ const handleSubmit = async (e) => {
 }
 
 .links {
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 20px;
 }
 .links a {
@@ -123,6 +126,7 @@ const handleSubmit = async (e) => {
   padding: 2px 10px;
   border-radius: var(--border-radius);
   font-size: 14px;
+  margin-bottom: 20px;
 }
 .links a:hover {
   color: var(--accent);

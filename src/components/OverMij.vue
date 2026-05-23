@@ -81,6 +81,7 @@
           <a href="https://instagram.com/tijmenloix" target="_blank">Instagram</a>
           <a href="https://www.facebook.com/tijmen.loix" target="_blank">Facebook</a>
           <a href="https://www.linkedin.com/in/tijmen-loix-5a03593ab/" target="_blank">LinkedIn</a>
+          <a href="https://github.com/tijmen-loix" target="_blank">Github</a>
         </section>
       </section>
     </section>
@@ -243,3 +244,5 @@
   }
 }
 </style>
+<script setup lang="ts">
+</script>

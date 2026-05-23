@@ -205,8 +205,11 @@ a {
   a {
     font-size: 0.8rem;
   }
+  .images{
+    gap:6px;
+  }
   .images img{
-    width: calc(48% - 8px);
+    width: calc(50% - 8px);
     aspect-ratio: 16 / 9;
     object-fit: cover;
     transition: opacity 0.3s;
