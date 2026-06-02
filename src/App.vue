@@ -1,4 +1,5 @@
 <script setup>
+import { Analytics } from "@vercel/analytics/vue"
 import { RouterView } from "vue-router"
 import HeaderItem from "@/components/HeaderItem.vue"
 import FooterItem from "@/components/FooterItem.vue"
@@ -12,5 +13,6 @@ import FooterItem from "@/components/FooterItem.vue"
   <footer>
     <FooterItem />
   </footer>
+  <Analytics />
 </template>
 <style scoped></style>
